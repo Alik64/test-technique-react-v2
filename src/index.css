@@ -1,0 +1,9 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

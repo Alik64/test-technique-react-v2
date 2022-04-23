@@ -1,0 +1,74 @@
+.App {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.App_searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.App_content {
+  display: flex;
+}
+
+.App_title {
+  display: inline;
+  border-bottom: 2px solid #000;
+}
+
+.App_button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.hidden {
+  display: none;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  height: 70vh;
+  overflow-y: scroll;
+  flex: 50%;
+}
+
+.Favorites {
+  margin-top: 20px;
+
+
+  flex: 50%;
+}
+
+.Favorites_title {
+  position: absolute;
+  top: 80px;
+  font-size: 32px;
+}
+
+input {
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  padding: 10px;
+}
